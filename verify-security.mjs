@@ -13,8 +13,9 @@ for(const asset of assets){for(const base of ['','dist/'])assert.equal(createHas
 const html=await fs.readFile('dist/index.html','utf8'),app=await fs.readFile('dist/app.js','utf8');
 assert.ok(html.indexOf(`content="${CSP}"`)>0&&html.indexOf('Content-Security-Policy')<html.indexOf('<script'),'HTML CSP before scripts');
 assert.match(html,/FICTIONAL CLIENT DEMO/);assert.match(html,/No real orders, payments, accounts or deliveries/);
-assert.doesNotMatch(html,/<(?:form|input|iframe|base)\b|(?:src|href)=["']\//i);
+assert.doesNotMatch(html,/<(?:form|iframe|base)\b|(?:src|href)=["']\//i);
 assert.doesNotMatch(app,/\b(?:fetch|XMLHttpRequest|WebSocket|sendBeacon|localStorage|sessionStorage|process|require)\b|razorpay|prisma|DATABASE_URL/i);
+const inputs=[...html.matchAll(/<input\b[^>]*>/gi)].map(m=>m[0]);assert.equal(inputs.length,1,'Only fictional-menu search is allowed');for(const attribute of ['id="search"','type="search"','maxlength="80"','autocomplete="off"'])assert.ok(inputs[0].includes(attribute),'No identity/payment input permitted');
 const pkg=JSON.parse(await fs.readFile('package.json','utf8'));assert.ok(!pkg.dependencies,'No runtime dependencies');
 const verify=yaml.load(await fs.readFile('.github/workflows/verify.yml','utf8'));
 const pages=yaml.load(await fs.readFile('.github/workflows/pages.yml','utf8'));

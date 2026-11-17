@@ -11,7 +11,8 @@
     "lint": "eslint . --max-warnings 0",
     "test": "node --test security.node-check.mjs",
     "test:security": "node verify-security.mjs",
-    "test:browser": "node verify-browser.mjs"
+    "test:browser": "node verify-browser.mjs",
+    "test:performance": "node measure-performance.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",
