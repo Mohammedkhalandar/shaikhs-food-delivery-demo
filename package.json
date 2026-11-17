@@ -1,0 +1,22 @@
+{
+  "name": "shaikhs-food-delivery-demo",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "engines": {"node": ">=24"},
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node server.mjs",
+    "lint": "eslint . --max-warnings 0",
+    "test": "node --test security.node-check.mjs",
+    "test:security": "node verify-security.mjs",
+    "test:browser": "node verify-browser.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@playwright/test": "1.65.0",
+    "eslint": "9.39.5",
+    "js-yaml": "4.3.2"
+  }
+}

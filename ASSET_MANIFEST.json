@@ -1,0 +1,50 @@
+[
+  {
+    "file": "assets/biryani.jpg",
+    "sha256": "f5cf1bc657aeb06083df482d0201a0aaf2e75156467e1c6814b47c78e5020d6c",
+    "license": "CC0-1.0",
+    "source": "artwork/biryani.svg"
+  },
+  {
+    "file": "assets/burger.jpg",
+    "sha256": "fb5614a40463e2d20889de88142e952974a101531e7383081229fad1423e393d",
+    "license": "CC0-1.0",
+    "source": "artwork/burger.svg"
+  },
+  {
+    "file": "assets/chicken-65.jpg",
+    "sha256": "7c645f6c920b54faeb765bb8cefe975ecc0892354f1498aa4fb2fa885ecd91d9",
+    "license": "CC0-1.0",
+    "source": "artwork/chicken-65.svg"
+  },
+  {
+    "file": "assets/gulab-jamun.jpg",
+    "sha256": "67b7d7afe1e6ae859e9a985c2f476f2e9a8d7f234982bdc1d6fc8736f6271908",
+    "license": "CC0-1.0",
+    "source": "artwork/gulab-jamun.svg"
+  },
+  {
+    "file": "assets/hero-biryani.jpg",
+    "sha256": "f5cf1bc657aeb06083df482d0201a0aaf2e75156467e1c6814b47c78e5020d6c",
+    "license": "CC0-1.0",
+    "source": "artwork/hero-biryani.svg"
+  },
+  {
+    "file": "assets/icon-192.png",
+    "sha256": "b0aa97e62fa42c7d1c1ea6e9ef7425eeeb6dea67d4542b8d8916f68467c05588",
+    "license": "CC0-1.0",
+    "source": "artwork/biryani.svg"
+  },
+  {
+    "file": "assets/masala-dosa.jpg",
+    "sha256": "e972e4726bc7ce8d22381e24da3995182194ae6c55553d1b6f29481f609e54e1",
+    "license": "CC0-1.0",
+    "source": "artwork/masala-dosa.svg"
+  },
+  {
+    "file": "assets/paneer-butter-masala.jpg",
+    "sha256": "6432b82f4dfb2cea68aea15991dd2c4172b292e9742ca4392371c6faebd11b7a",
+    "license": "CC0-1.0",
+    "source": "artwork/paneer-butter-masala.svg"
+  }
+]

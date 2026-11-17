@@ -1,0 +1,1 @@
+export default [{ignores:['node_modules/**','dist/**','.test-artifacts/**']},{files:['**/*.js','**/*.mjs'],languageOptions:{ecmaVersion:'latest',sourceType:'module'},rules:{'no-unused-vars':'error','no-unreachable':'error','no-constant-condition':'error','no-debugger':'error','no-eval':'error','no-implied-eval':'error'}}];

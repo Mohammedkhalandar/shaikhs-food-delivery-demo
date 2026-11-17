@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.test-artifacts/
+.env
+.env.*
+*.log
+*.pem
+*.key
+*.pfx
+*.dump
+*.backup
+*.zip

@@ -1,0 +1,2 @@
+# Demo-only candidate
+Preserve fictional/demo labels. No backend, database, authentication, payments, messaging or real fulfilment. Do not copy private application history, reports, credentials or original uncleared photographs. The owner authorized this separate public repository and Pages site; deploy only dist after all checks using the manual workflow. Preserve All Rights Reserved for original code/branding and the separate CC0/third-party notices. Never weaken security/network tests or change the original private repository.

@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.jpg binary
+*.png binary
+third-party-licenses/* -text whitespace=cr-at-eol

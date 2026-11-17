@@ -1,0 +1,2 @@
+CC0-1.0: These newly created original geometric food illustrations (SVG sources and their JPEG outputs) are dedicated to the public domain to the extent permitted. No third-party photograph, brand graphic or font file is used as input. https://creativecommons.org/publicdomain/zero/1.0/
+This dedication does not cover the pre-existing application code, third-party dependencies, fonts or logos.
